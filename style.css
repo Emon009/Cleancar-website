@@ -1,0 +1,361 @@
+/* Basic css code start */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .2s linear;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    --color1: #fff;
+    --color2: #181818;
+
+  }
+
+/* Basic css code end */
+
+/* header stction start */
+
+
+.main_header{
+    padding: 8rem 9%;
+    /* margin-top: 80px; */
+}
+
+.topsection{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.topleft{
+    flex:1 1 45rem;
+    padding:2rem;
+}
+
+.topsection h2{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 50px;
+
+}
+.topsection p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.btn1{
+    padding:12px 30px;
+    background-color: rgb(87, 87, 134);
+    color: #fff;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.btn2{
+    padding:12px 30px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.topright{
+    flex:1 1 45rem;
+}
+
+
+.topright img{
+    width: 500px;
+    object-fit: cover;
+}
+.topright img:hover{
+    transform: scale(1.03);
+}
+/* top section end */
+
+/* our services section start */
+
+
+.our_services{
+    padding: 15px 9%;
+}
+.our_services h3{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.services_section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: 15px;
+
+}
+.services{
+    text-align: center;
+    padding: 30px 20px;
+}
+.services img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.services h4{
+    font-size: 25px;
+    padding: 20px;
+}
+.services p{
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 3rem;
+}
+.services:hover{
+    transform: scale(1.03);
+}
+.services a{
+    width: 12rem;
+    height: 3rem;
+    background-color: #000;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+
+
+/* our services section end */
+
+/* Quality section staart */
+
+.quality_section{
+    padding: 10% 9%;
+    margin-top: 40px;
+    background-image: url(photo/clean5.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ .quality_services h3{
+    text-align: center;
+    font-size: 35px;
+    padding: 4% 9%;
+    margin-top: 40px;
+}
+.quality{
+    text-align: center;
+    font-size: 17px;
+    color: #000;
+}
+.quality h5{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+.quality p{
+    line-height: 25px;
+    padding-top: 30px;
+}
+.quality_btn{
+    padding:12px 30px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
+/* Quality section end */
+
+/* choose us section start */
+
+.choose_us{
+    text-align: center;
+    padding: 4% 9%;
+    margin-top: 40px;
+}
+.choose_us h4{
+    font-size: 30px;
+}
+.choose_section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 15px;
+}
+.choose{
+    box-shadow: 3px 3px 10px #ddd;
+    padding: 10% 5%;
+    margin-top: 50px;
+}
+.choose:hover{
+    background-color: #0C426E;
+    color: #fff;
+}
+.choose h6{
+    font-size: 20px;
+}
+.choose p{
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+/* choose us section end */
+
+/* testimonial section start */
+
+.testimonial{
+    padding: 5% 20%;
+    margin-top: 40px;
+}
+.testimonial h6{
+    text-align: center;
+    font-size: 30px;
+}
+
+.testimonial_section{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* testimonial section end */
+
+/* footer section start */
+
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 5% 0%;
+}
+.footer_section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    padding: 5% 10%;
+    gap: 20px;
+}
+.footer_area h4{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.footer_area ul li{
+    margin: 10px 0px;
+}
+.footer_area ul li a{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.newsletter_box input{
+    padding: 10px 10px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+
+}
+footer .copyright{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* footer section end */
+
+/* mobile menu start */
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+/* mobile menu end */
+
+/* media queries  */
+@media (max-width:991px){
+
+}
+
+
+@media (max-width:768px){
+    .topright{
+        display: none;
+        }
+    .topleft{
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 610px) {
+    .testimonial_section{
+        display: block;
+        text-align: center;
+    }
+    .testi_img{
+        margin-bottom: 20px;
+    }
+    .footer_section{
+        text-align: center;
+    }
+    .topleft{
+        text-align: center;
+    }
+
+
+
+    .menu{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 80%;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      right: -100%;
+      z-index: 100;
+      background-color: forestgreen;;
+      transition: all 0.2s ease-in-out;
+    }
+    .menu li{margin-top: 40px;}
+    .menu li a{padding: 10px;}
+    .open-menu, .close-menu {display: block;}
+    #check:checked ~ .menu {right: 0;}
+
+  }
+
+
+
+@media (max-width:450px){
+    .btn1{
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .btn2{
+        display: block;
+        width: 100%;
+    }
+    .topleft{
+        overflow: hidden;
+    }
+}
